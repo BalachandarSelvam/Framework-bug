@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoadTImeChanges_Bug.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Clicked" Text="click"/>
+    </ContentPage.ToolbarItems>
+    <AbsoluteLayout>
+        <Grid x:Name="grid" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+            <ScrollView >
+                <StackLayout>
+                    <Label FontSize="18" Text="Apple" />
+                    <Label FontSize="18" Text="Banana" />
+                    <Label FontSize="18" Text="Orange" />
+                    <Label FontSize="18" Text="grapes" />
+                    <Label FontSize="18" Text="peach" />
+                    <Label FontSize="18" Text="fruit" />
+                    <Label FontSize="18" Text="Apple" />
+                    <Label FontSize="18" Text="Banana" />
+                    <Label FontSize="18" Text="Orange" />
+                    <Label FontSize="18" Text="grapes" />
+                    <Label FontSize="18" Text="peach" />
+                    <Label FontSize="18" Text="fruit" />
+                    <Label FontSize="18" Text="Apple" />
+                    <Label FontSize="18" Text="Banana" />
+                    <Label FontSize="18" Text="Orange" />
+                    <Label FontSize="18" Text="grapes" />
+                    <Label FontSize="18" Text="peach" />
+                    <Label FontSize="18" Text="fruit" />
+                    <Label FontSize="18" Text="Apple" />
+                    <Label FontSize="18" Text="Banana" />
+                    <Label FontSize="18" Text="Orange" />
+                    <Label FontSize="18" Text="grapes" />
+                    <Label FontSize="18" Text="peach" />
+                    <Label FontSize="18" Text="fruit" />
+                    <Label FontSize="18" Text="Apple" />
+                    <Label FontSize="18" Text="Banana" />
+                    <Label FontSize="18" Text="Orange" />
+                    <Label FontSize="18" Text="grapes" />
+                    <Label FontSize="18" Text="peach" />
+                    <Label FontSize="18" Text="fruit" />
+                    <Label FontSize="18" Text="Apple" />
+                    <Label FontSize="18" Text="Banana" />
+                    <Label FontSize="18" Text="Orange" />
+                    <Label FontSize="18" Text="grapes" />
+                    <Label FontSize="18" Text="peach" />
+                    <Label FontSize="18" Text="fruit" />
+                    <Label FontSize="18" Text="Last" />
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </AbsoluteLayout>
+
+</ContentPage>
