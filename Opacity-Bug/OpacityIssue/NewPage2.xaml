@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpacityIssue.NewPage2"
+             Title="NewPage2">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Clicked" Text="ClickHere"/>
+    </ContentPage.ToolbarItems>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label Text="{Binding Source={x:Reference listview}, Path=Opacity, StringFormat='The Opacity is {0}'}"/>
+
+        <ContentView Grid.Row="1">
+            <ContentView.Content>
+                <ListView ItemsSource="{Binding Numbers}" x:Name="listview" Opacity="0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid >
+                                    <Image Source="dotnet_bot.png" />
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ContentView.Content>
+        </ContentView>
+    </Grid>
+</ContentPage>
